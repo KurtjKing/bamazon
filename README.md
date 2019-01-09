@@ -50,3 +50,6 @@ screen shot of updated inventory
 
 screen shot of low stock 
 ![Screenshot](./images/viewlow.png)
+
+screen shot of db 
+![Screenshot](./images/dblist.png)
