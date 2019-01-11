@@ -133,11 +133,11 @@ function addInv() {
 function addProd() {
   connection.query("SELECT department_name FROM departments", function (err, res) {
     if (err) throw err;
-    // display products and price with current low inventory
+    
     for (var i = 0; i < res.length; i++) {
       deptart.push(res[i].department_name);
     }
-    //console.log(depart.toString());  
+    
     connection.close;
   })
 
@@ -198,7 +198,7 @@ function addProd() {
       }
     }
   ]).then(function (answers) {
-    //console.log("Here!");
+    
 
     var query = connection.query(
       "INSERT INTO products SET ?",
